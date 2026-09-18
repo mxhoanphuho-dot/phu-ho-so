@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Phú Hồ Số - Cổng điều phối dịch vụ công cấp xã">
+  <title>Phú Hồ Số - Tìm đúng thủ tục, làm đúng ngay từ đầu</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="#">
+      <div class="brand-mark">✦</div>
+      <div><strong>PHÚ HỒ SỐ</strong><span>Cổng điều phối dịch vụ công cấp xã</span></div>
+    </a>
+    <nav>
+      <a class="active" href="#home">Trang chủ</a>
+      <a href="#procedures">Thủ tục hành chính</a>
+      <a href="#categories">Lĩnh vực</a>
+      <a href="#guide">Hướng dẫn</a>
+      <a href="#links">Tiện ích</a>
+    </nav>
+    <button class="citizen">👤 Công dân ▾</button>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-content">
+    <div class="eyebrow">CHÍNH QUYỀN SỐ • PHỤC VỤ NGƯỜI DÂN</div>
+    <h1>PHÚ HỒ <em>SỐ</em></h1>
+    <p class="tagline">Tìm đúng thủ tục – Làm đúng ngay từ đầu</p>
+
+    <div class="searchbox">
+      <span>⌕</span>
+      <input id="searchInput" autocomplete="off"
+        placeholder="Bạn đang cần thực hiện thủ tục gì? Ví dụ: làm giấy khai sinh, đăng ký kết hôn...">
+      <button id="searchBtn">Tìm kiếm</button>
+    </div>
+    <div class="chips" id="suggestions"></div>
+  </div>
+</section>
+
+<section class="container overlap">
+  <div class="panel quick-panel">
+    <div class="section-head">
+      <div><h2>🔥 Tôi muốn...</h2><p>Chọn nhanh nhu cầu của bạn</p></div>
+      <a href="#procedures">Xem tất cả →</a>
+    </div>
+    <div class="quick-grid" id="quickGrid"></div>
+  </div>
+</section>
+
+<section class="container section" id="procedures">
+  <div class="section-head">
+    <div><h2>⭐ Thủ tục hành chính thường dùng</h2><p>Tra cứu nhanh các thủ tục phổ biến</p></div>
+  </div>
+  <div class="procedure-grid" id="procedureGrid"></div>
+</section>
+
+<section class="container section two-col" id="categories">
+  <div class="panel">
+    <div class="section-head"><div><h2>▦ Tra cứu theo lĩnh vực</h2><p>Chọn lĩnh vực bạn quan tâm</p></div></div>
+    <div class="category-grid" id="categoryGrid"></div>
+  </div>
+  <aside class="guide-card" id="guide">
+    <div class="guide-icon">✓</div>
+    <h2>Hướng dẫn chi tiết</h2>
+    <p>Tra cứu thành phần hồ sơ, cách thực hiện và đường dẫn đến hệ thống chính thức.</p>
+    <button onclick="showGuide()">Xem hướng dẫn →</button>
+  </aside>
+</section>
+
+<section class="container section" id="links">
+  <div class="section-head"><div><h2>🔗 Tiện ích số</h2><p>Liên kết nhanh đến các nền tảng chính thức</p></div></div>
+  <div class="utility-grid">
+    <a class="utility" href="https://dichvucong.gov.vn/" target="_blank" rel="noopener"><b>◉ Dịch vụ công quốc gia</b><span>Cổng dịch vụ công</span>↗</a>
+    <a class="utility" href="#" onclick="alert('Cấu hình liên kết VNeID trong data/procedures.json');return false"><b>◉ VNeID</b><span>Định danh điện tử</span>↗</a>
+    <a class="utility" href="#" onclick="alert('Cấu hình liên kết thanh toán trong data/procedures.json');return false"><b>◉ Thanh toán trực tuyến</b><span>Không tiền mặt</span>↗</a>
+    <a class="utility" href="#" onclick="alert('Cấu hình liên kết phản ánh kiến nghị.');return false"><b>◉ Phản ánh kiến nghị</b><span>Gửi góp ý, phản ánh</span>↗</a>
+  </div>
+</section>
+
+<section class="feature-strip">
+  <div class="container features">
+    <div><b>⚡ Nhanh chóng</b><span>Tìm đúng thủ tục, tiết kiệm thời gian</span></div>
+    <div><b>✓ Chính xác</b><span>Liên kết trực tiếp đến hệ thống chính thức</span></div>
+    <div><b>👥 Vì người dân</b><span>Dễ hiểu – Dễ làm – Dễ tiếp cận</span></div>
+    <div><b>⌁ Không lưu hồ sơ</b><span>Chỉ điều phối đến hệ thống chính thức</span></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div><strong>UBND XÃ PHÚ HỒ</strong><span>Cổng điều phối dịch vụ công số</span></div>
+    <div><span>Phú Hồ, thành phố Huế</span><span>•</span><span>Cập nhật dữ liệu: 2026</span></div>
+  </div>
+</footer>
+
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <button class="close" onclick="closeModal()">×</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

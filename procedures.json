@@ -1,0 +1,188 @@
+[
+  {
+    "id": "ks01",
+    "name": "Đăng ký khai sinh",
+    "short": "Làm giấy khai sinh",
+    "field": "Hộ tịch",
+    "category": "ho_tich",
+    "agency": "UBND cấp xã",
+    "time": "Trong ngày làm việc khi hồ sơ đầy đủ",
+    "quick": true,
+    "keywords": [
+      "khai sinh",
+      "giấy khai sinh",
+      "đăng ký khai sinh cho con",
+      "trẻ mới sinh",
+      "sinh con"
+    ],
+    "description": "Thủ tục đăng ký khai sinh cho trẻ theo quy định hiện hành.",
+    "documents": [
+      "Tờ khai đăng ký khai sinh",
+      "Giấy chứng sinh hoặc giấy tờ thay thế theo quy định",
+      "Giấy tờ tùy thân của người đi đăng ký"
+    ],
+    "note": "Kiểm tra thành phần hồ sơ trên hệ thống chính thức trước khi nộp.",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "kh01",
+    "name": "Đăng ký kết hôn",
+    "short": "Đăng ký kết hôn",
+    "field": "Hộ tịch",
+    "category": "ho_tich",
+    "quick": true,
+    "keywords": [
+      "kết hôn",
+      "đăng ký kết hôn",
+      "làm giấy kết hôn"
+    ],
+    "description": "Thực hiện đăng ký kết hôn theo quy định của pháp luật hộ tịch.",
+    "documents": [
+      "Tờ khai đăng ký kết hôn",
+      "Giấy tờ tùy thân của hai bên"
+    ],
+    "time": "Trong ngày làm việc khi đủ điều kiện",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "dd01",
+    "name": "Đăng ký cấp Giấy chứng nhận quyền sử dụng đất",
+    "short": "Thủ tục đất đai",
+    "field": "Đất đai",
+    "category": "dat_dai",
+    "quick": true,
+    "keywords": [
+      "đất đai",
+      "sổ đỏ",
+      "sổ hồng",
+      "cấp giấy chứng nhận",
+      "giấy chứng nhận quyền sử dụng đất"
+    ],
+    "description": "Tra cứu thủ tục liên quan đến cấp Giấy chứng nhận quyền sử dụng đất và tài sản gắn liền với đất.",
+    "documents": [
+      "Hồ sơ theo từng trường hợp cụ thể"
+    ],
+    "time": "Theo quy định đối với từng thủ tục",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "ct01",
+    "name": "Đăng ký cư trú",
+    "short": "Thủ tục về cư trú",
+    "field": "Cư trú",
+    "category": "cu_tru",
+    "quick": true,
+    "keywords": [
+      "cư trú",
+      "thường trú",
+      "tạm trú",
+      "đăng ký thường trú",
+      "đăng ký tạm trú"
+    ],
+    "description": "Tra cứu và thực hiện thủ tục cư trú trên hệ thống chính thức.",
+    "documents": [
+      "Giấy tờ tùy trường hợp theo quy định"
+    ],
+    "time": "Theo quy định",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "kd01",
+    "name": "Đăng ký hộ kinh doanh",
+    "short": "Đăng ký hộ kinh doanh",
+    "field": "Đăng ký kinh doanh",
+    "category": "kinh_doanh",
+    "quick": true,
+    "keywords": [
+      "hộ kinh doanh",
+      "đăng ký kinh doanh",
+      "mở hộ kinh doanh",
+      "thành lập hộ kinh doanh"
+    ],
+    "description": "Tra cứu thủ tục đăng ký hộ kinh doanh và các yêu cầu liên quan.",
+    "documents": [
+      "Giấy đề nghị đăng ký hộ kinh doanh",
+      "Giấy tờ pháp lý theo trường hợp"
+    ],
+    "time": "Theo quy định",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "tc01",
+    "name": "Thực hiện chính sách trợ cấp, an sinh xã hội",
+    "short": "Trợ cấp, an sinh xã hội",
+    "field": "Lao động - Thương binh và Xã hội",
+    "category": "lao_dong",
+    "quick": true,
+    "keywords": [
+      "trợ cấp",
+      "an sinh",
+      "bảo trợ xã hội",
+      "người có công",
+      "hỗ trợ"
+    ],
+    "description": "Tra cứu các thủ tục, chính sách trợ cấp và an sinh xã hội.",
+    "documents": [
+      "Tùy từng chính sách và đối tượng"
+    ],
+    "time": "Theo từng thủ tục",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "gt01",
+    "name": "Thủ tục liên quan phương tiện giao thông",
+    "short": "Phương tiện giao thông",
+    "field": "Giao thông",
+    "category": "giao_thong",
+    "keywords": [
+      "xe",
+      "phương tiện",
+      "đăng ký xe",
+      "giao thông"
+    ],
+    "description": "Nhóm liên kết để người dân tra cứu thủ tục giao thông phù hợp.",
+    "documents": [
+      "Theo thủ tục cụ thể"
+    ],
+    "time": "Theo quy định",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "cc01",
+    "name": "Chứng thực bản sao từ bản chính",
+    "short": "Sao, chứng thực",
+    "field": "Chứng thực",
+    "category": "chung_thuc",
+    "keywords": [
+      "sao y",
+      "chứng thực",
+      "photo công chứng",
+      "bản sao"
+    ],
+    "description": "Tra cứu thủ tục chứng thực bản sao từ bản chính.",
+    "documents": [
+      "Bản chính giấy tờ cần chứng thực",
+      "Bản sao nếu có"
+    ],
+    "time": "Theo quy định",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "xd01",
+    "name": "Cấp phép xây dựng",
+    "short": "Thủ tục xây dựng",
+    "field": "Xây dựng",
+    "category": "xay_dung",
+    "keywords": [
+      "xây dựng",
+      "giấy phép xây dựng",
+      "xin phép xây nhà"
+    ],
+    "description": "Tra cứu thủ tục và điều kiện liên quan đến cấp phép xây dựng.",
+    "documents": [
+      "Hồ sơ theo loại công trình và trường hợp"
+    ],
+    "time": "Theo quy định",
+    "url": "https://dichvucong.gov.vn/"
+  }
+]
