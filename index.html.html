@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Phú Hồ Số - Cổng điều phối dịch vụ công cấp xã">
+  <title>Phú Hồ Số - Tìm đúng thủ tục, làm đúng ngay từ đầu</title>
+  <style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:#12336d;background:#f5f9ff}a{text-decoration:none;color:inherit}.container{width:min(1380px,calc(100% - 48px));margin:auto}.topbar{height:78px;background:#fff;position:sticky;top:0;z-index:20;box-shadow:0 2px 16px #174b9212}.nav{height:100%;display:flex;align-items:center;gap:30px}.brand{display:flex;align-items:center;gap:11px;min-width:310px}.brand-mark{width:43px;height:43px;border-radius:14px;background:linear-gradient(135deg,#1b75e8,#6a36dc);color:#fff;display:grid;place-items:center;font-size:26px}.brand strong{display:block;font-size:22px;letter-spacing:.3px;color:#1151a2}.brand span{display:block;font-size:11px;color:#6b7c98;margin-top:2px}nav{display:flex;gap:27px;align-items:center;flex:1}nav a{font-weight:650;font-size:15px;color:#334c75;padding:29px 0;position:relative}nav a.active,nav a:hover{color:#1565d8}nav a.active:after{content:"";height:3px;position:absolute;left:0;right:0;bottom:0;background:#1565d8;border-radius:3px}.citizen{border:1px solid #b9d2f5;background:#fff;border-radius:24px;padding:11px 17px;color:#1156b4;font-weight:700}.hero{position:relative;min-height:365px;overflow:hidden}.hero-bg{position:absolute;inset:0;background:linear-gradient(110deg,#ccecff,#edf7ff 47%,#d8efff);}.hero-bg:after{content:"";position:absolute;inset:auto -5% -80px;height:230px;background:linear-gradient(180deg,transparent,#f5f9ff);border-radius:50% 50% 0 0/30% 30% 0 0}.hero-content{position:relative;text-align:center;padding:54px 0 80px}.eyebrow{font-size:14px;letter-spacing:2px;font-weight:800;color:#1370c9}.hero h1{font-size:62px;line-height:1;margin:12px 0 8px;font-weight:900;letter-spacing:1px;color:#0b4ca3}.hero h1 em{font-style:normal;background:linear-gradient(90deg,#164eb4,#7134db);color:transparent;background-clip:text}.tagline{font-size:21px;margin:0 0 26px;color:#203d68}.searchbox{background:#fff;border:1px solid #d4e4fb;box-shadow:0 12px 35px #2864b52b;border-radius:36px;width:min(900px,100%);margin:auto;display:flex;align-items:center;padding:6px 7px 6px 22px}.searchbox span{font-size:29px;color:#1765ce}.searchbox input{border:0;outline:0;flex:1;padding:14px;font-size:16px;color:#193b6c;min-width:0}.searchbox button,.guide-card button{border:0;border-radius:28px;background:linear-gradient(100deg,#1975ed,#6438dc);color:#fff;font-weight:800;padding:15px 27px;cursor:pointer}.chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:13px}.chips button{border:1px solid #d0e2fa;background:#ffffffaa;color:#2761a9;border-radius:20px;padding:7px 13px;cursor:pointer}.overlap{margin-top:-38px;position:relative;z-index:3}.panel{background:#fff;border:1px solid #e4eefb;border-radius:20px;box-shadow:0 10px 30px #225a9c12}.quick-panel{padding:23px}.section{padding-top:34px}.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.section-head h2{margin:0;font-size:22px;color:#103f87}.section-head p{margin:5px 0 0;color:#7284a2;font-size:14px}.section-head>a{color:#1567d2;font-weight:700}.quick-grid{display:grid;grid-template-columns:repeat(8,1fr);gap:12px}.quick-card{padding:18px 10px;background:#f6faff;border:1px solid #e0ecfb;border-radius:15px;text-align:center;cursor:pointer;transition:.2s}.quick-card:hover,.procedure-card:hover{transform:translateY(-3px);box-shadow:0 8px 20px #2463ad16}.quick-card .ico,.procedure-card .ico{width:46px;height:46px;border-radius:50%;margin:0 auto 10px;display:grid;place-items:center;background:#e6f1ff;font-size:23px}.quick-card b{display:block;font-size:13px;line-height:1.3;color:#16468e}.procedure-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.procedure-card{background:#fff;border:1px solid #e0eafb;border-radius:17px;padding:18px;cursor:pointer;transition:.2s}.procedure-card .top{display:flex;gap:13px;align-items:center}.procedure-card .ico{margin:0;background:#eef6ff;color:#1767d5}.procedure-card h3{font-size:16px;margin:0;color:#153f83}.procedure-card p{font-size:13px;color:#71829d;margin:4px 0 0}.procedure-card .arrow{float:right;color:#216cd2;font-size:21px}.two-col{display:grid;grid-template-columns:1.7fr 1fr;gap:18px}.two-col>.panel{padding:22px}.category-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:1px solid #e5edf8;border-left:1px solid #e5edf8}.category{padding:19px 10px;border-right:1px solid #e5edf8;border-bottom:1px solid #e5edf8;text-align:center;cursor:pointer}.category .ico{font-size:25px}.category b{display:block;font-size:13px;margin-top:8px}.guide-card{border-radius:20px;padding:30px;background:linear-gradient(135deg,#e8f5ff,#f0ebff);border:1px solid #d9e6fb}.guide-icon{width:55px;height:55px;border-radius:17px;background:#fff;display:grid;place-items:center;font-size:28px;color:#2569d6;box-shadow:0 5px 15px #3264a822}.guide-card h2{font-size:24px;margin:20px 0 8px}.guide-card p{color:#54709b;line-height:1.6}.utility-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.utility{background:#fff;border:1px solid #dfebfa;border-radius:15px;padding:18px;display:grid;grid-template-columns:1fr auto;gap:5px;box-shadow:0 4px 15px #1d5a9b09}.utility b{color:#12468f}.utility span{color:#788ba9;font-size:12px}.feature-strip{margin-top:40px;background:#eaf4ff;border-top:1px solid #d7e8fb;border-bottom:1px solid #d7e8fb}.features{display:grid;grid-template-columns:repeat(4,1fr);padding:19px 0}.features>div{padding:0 25px;border-right:1px solid #c9def6}.features>div:last-child{border:0}.features b,.features span{display:block}.features b{color:#1359b3}.features span{font-size:12px;color:#7085a5;margin-top:4px}footer{background:#103c82;color:#fff}.footer{display:flex;justify-content:space-between;align-items:center;padding:21px 0;font-size:13px}.footer span{opacity:.78;margin-left:15px}.modal{display:none;position:fixed;inset:0;background:#102d5577;z-index:50;padding:30px;align-items:center;justify-content:center}.modal.show{display:flex}.modal-box{width:min(720px,100%);max-height:90vh;overflow:auto;background:#fff;border-radius:22px;padding:30px;position:relative}.close{position:absolute;right:18px;top:12px;border:0;background:transparent;font-size:30px;color:#69809f;cursor:pointer}.modal-box h2{color:#10448d}.modal-box .meta{background:#f3f8ff;border-radius:12px;padding:13px;margin:15px 0;line-height:1.7}.modal-box .primary{display:inline-block;background:#1468d7;color:#fff;padding:12px 18px;border-radius:24px;font-weight:800}@media(max-width:1000px){nav{display:none}.brand{flex:1}.quick-grid{grid-template-columns:repeat(4,1fr)}.two-col{grid-template-columns:1fr}.utility-grid{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:repeat(2,1fr);gap:15px}.features>div:nth-child(2){border:0}}@media(max-width:650px){.container{width:min(100% - 24px,1380px)}.topbar{height:66px}.brand strong{font-size:18px}.brand span{font-size:9px}.citizen{padding:9px 11px}.hero{min-height:390px}.hero-content{padding:40px 0 75px}.hero h1{font-size:43px}.tagline{font-size:17px}.searchbox{padding-left:13px}.searchbox input{font-size:13px}.searchbox button{padding:13px 16px}.quick-grid{grid-template-columns:repeat(2,1fr)}.procedure-grid{grid-template-columns:1fr}.category-grid{grid-template-columns:repeat(2,1fr)}.utility-grid{grid-template-columns:1fr}.features{grid-template-columns:1fr}.features>div{border:0!important}.footer{display:block;line-height:2}.footer span{margin-left:8px}}
+  </style>
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="#">
+      <div class="brand-mark">✦</div>
+      <div><strong>PHÚ HỒ SỐ</strong><span>Cổng điều phối dịch vụ công cấp xã</span></div>
+    </a>
+    <nav>
+      <a class="active" href="#home">Trang chủ</a>
+      <a href="#procedures">Thủ tục hành chính</a>
+      <a href="#categories">Lĩnh vực</a>
+      <a href="#guide">Hướng dẫn</a>
+      <a href="#links">Tiện ích</a>
+    </nav>
+    <button class="citizen">👤 Công dân ▾</button>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-content">
+    <div class="eyebrow">CHÍNH QUYỀN SỐ • PHỤC VỤ NGƯỜI DÂN</div>
+    <h1>PHÚ HỒ <em>SỐ</em></h1>
+    <p class="tagline">Tìm đúng thủ tục – Làm đúng ngay từ đầu</p>
+
+    <div class="searchbox">
+      <span>⌕</span>
+      <input id="searchInput" autocomplete="off"
+        placeholder="Bạn đang cần thực hiện thủ tục gì? Ví dụ: làm giấy khai sinh, đăng ký kết hôn...">
+      <button id="searchBtn">Tìm kiếm</button>
+    </div>
+    <div class="chips" id="suggestions"></div>
+  </div>
+</section>
+
+<section class="container overlap">
+  <div class="panel quick-panel">
+    <div class="section-head">
+      <div><h2>🔥 Tôi muốn...</h2><p>Chọn nhanh nhu cầu của bạn</p></div>
+      <a href="#procedures">Xem tất cả →</a>
+    </div>
+    <div class="quick-grid" id="quickGrid"></div>
+  </div>
+</section>
+
+<section class="container section" id="procedures">
+  <div class="section-head">
+    <div><h2>⭐ Thủ tục hành chính thường dùng</h2><p>Tra cứu nhanh các thủ tục phổ biến</p></div>
+  </div>
+  <div class="procedure-grid" id="procedureGrid"></div>
+</section>
+
+<section class="container section two-col" id="categories">
+  <div class="panel">
+    <div class="section-head"><div><h2>▦ Tra cứu theo lĩnh vực</h2><p>Chọn lĩnh vực bạn quan tâm</p></div></div>
+    <div class="category-grid" id="categoryGrid"></div>
+  </div>
+  <aside class="guide-card" id="guide">
+    <div class="guide-icon">✓</div>
+    <h2>Hướng dẫn chi tiết</h2>
+    <p>Tra cứu thành phần hồ sơ, cách thực hiện và đường dẫn đến hệ thống chính thức.</p>
+    <button onclick="showGuide()">Xem hướng dẫn →</button>
+  </aside>
+</section>
+
+<section class="container section" id="links">
+  <div class="section-head"><div><h2>🔗 Tiện ích số</h2><p>Liên kết nhanh đến các nền tảng chính thức</p></div></div>
+  <div class="utility-grid">
+    <a class="utility" href="https://dichvucong.gov.vn/" target="_blank" rel="noopener"><b>◉ Dịch vụ công quốc gia</b><span>Cổng dịch vụ công</span>↗</a>
+    <a class="utility" href="#" onclick="alert('Cấu hình liên kết VNeID trong data/procedures.json');return false"><b>◉ VNeID</b><span>Định danh điện tử</span>↗</a>
+    <a class="utility" href="#" onclick="alert('Cấu hình liên kết thanh toán trong data/procedures.json');return false"><b>◉ Thanh toán trực tuyến</b><span>Không tiền mặt</span>↗</a>
+    <a class="utility" href="#" onclick="alert('Cấu hình liên kết phản ánh kiến nghị.');return false"><b>◉ Phản ánh kiến nghị</b><span>Gửi góp ý, phản ánh</span>↗</a>
+  </div>
+</section>
+
+<section class="feature-strip">
+  <div class="container features">
+    <div><b>⚡ Nhanh chóng</b><span>Tìm đúng thủ tục, tiết kiệm thời gian</span></div>
+    <div><b>✓ Chính xác</b><span>Liên kết trực tiếp đến hệ thống chính thức</span></div>
+    <div><b>👥 Vì người dân</b><span>Dễ hiểu – Dễ làm – Dễ tiếp cận</span></div>
+    <div><b>⌁ Không lưu hồ sơ</b><span>Chỉ điều phối đến hệ thống chính thức</span></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div><strong>UBND XÃ PHÚ HỒ</strong><span>Cổng điều phối dịch vụ công số</span></div>
+    <div><span>Phú Hồ, thành phố Huế</span><span>•</span><span>Cập nhật dữ liệu: 2026</span></div>
+  </div>
+</footer>
+
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <button class="close" onclick="closeModal()">×</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+<script>
+const PROCEDURES = [
+  {
+    "id": "ks01",
+    "name": "Đăng ký khai sinh",
+    "short": "Làm giấy khai sinh",
+    "field": "Hộ tịch",
+    "category": "ho_tich",
+    "agency": "UBND cấp xã",
+    "time": "Trong ngày làm việc khi hồ sơ đầy đủ",
+    "quick": true,
+    "keywords": [
+      "khai sinh",
+      "giấy khai sinh",
+      "đăng ký khai sinh cho con",
+      "trẻ mới sinh",
+      "sinh con"
+    ],
+    "description": "Thủ tục đăng ký khai sinh cho trẻ theo quy định hiện hành.",
+    "documents": [
+      "Tờ khai đăng ký khai sinh",
+      "Giấy chứng sinh hoặc giấy tờ thay thế theo quy định",
+      "Giấy tờ tùy thân của người đi đăng ký"
+    ],
+    "note": "Kiểm tra thành phần hồ sơ trên hệ thống chính thức trước khi nộp.",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "kh01",
+    "name": "Đăng ký kết hôn",
+    "short": "Đăng ký kết hôn",
+    "field": "Hộ tịch",
+    "category": "ho_tich",
+    "quick": true,
+    "keywords": [
+      "kết hôn",
+      "đăng ký kết hôn",
+      "làm giấy kết hôn"
+    ],
+    "description": "Thực hiện đăng ký kết hôn theo quy định của pháp luật hộ tịch.",
+    "documents": [
+      "Tờ khai đăng ký kết hôn",
+      "Giấy tờ tùy thân của hai bên"
+    ],
+    "time": "Trong ngày làm việc khi đủ điều kiện",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "dd01",
+    "name": "Đăng ký cấp Giấy chứng nhận quyền sử dụng đất",
+    "short": "Thủ tục đất đai",
+    "field": "Đất đai",
+    "category": "dat_dai",
+    "quick": true,
+    "keywords": [
+      "đất đai",
+      "sổ đỏ",
+      "sổ hồng",
+      "cấp giấy chứng nhận",
+      "giấy chứng nhận quyền sử dụng đất"
+    ],
+    "description": "Tra cứu thủ tục liên quan đến cấp Giấy chứng nhận quyền sử dụng đất và tài sản gắn liền với đất.",
+    "documents": [
+      "Hồ sơ theo từng trường hợp cụ thể"
+    ],
+    "time": "Theo quy định đối với từng thủ tục",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "ct01",
+    "name": "Đăng ký cư trú",
+    "short": "Thủ tục về cư trú",
+    "field": "Cư trú",
+    "category": "cu_tru",
+    "quick": true,
+    "keywords": [
+      "cư trú",
+      "thường trú",
+      "tạm trú",
+      "đăng ký thường trú",
+      "đăng ký tạm trú"
+    ],
+    "description": "Tra cứu và thực hiện thủ tục cư trú trên hệ thống chính thức.",
+    "documents": [
+      "Giấy tờ tùy trường hợp theo quy định"
+    ],
+    "time": "Theo quy định",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "kd01",
+    "name": "Đăng ký hộ kinh doanh",
+    "short": "Đăng ký hộ kinh doanh",
+    "field": "Đăng ký kinh doanh",
+    "category": "kinh_doanh",
+    "quick": true,
+    "keywords": [
+      "hộ kinh doanh",
+      "đăng ký kinh doanh",
+      "mở hộ kinh doanh",
+      "thành lập hộ kinh doanh"
+    ],
+    "description": "Tra cứu thủ tục đăng ký hộ kinh doanh và các yêu cầu liên quan.",
+    "documents": [
+      "Giấy đề nghị đăng ký hộ kinh doanh",
+      "Giấy tờ pháp lý theo trường hợp"
+    ],
+    "time": "Theo quy định",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "tc01",
+    "name": "Thực hiện chính sách trợ cấp, an sinh xã hội",
+    "short": "Trợ cấp, an sinh xã hội",
+    "field": "Lao động - Thương binh và Xã hội",
+    "category": "lao_dong",
+    "quick": true,
+    "keywords": [
+      "trợ cấp",
+      "an sinh",
+      "bảo trợ xã hội",
+      "người có công",
+      "hỗ trợ"
+    ],
+    "description": "Tra cứu các thủ tục, chính sách trợ cấp và an sinh xã hội.",
+    "documents": [
+      "Tùy từng chính sách và đối tượng"
+    ],
+    "time": "Theo từng thủ tục",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "gt01",
+    "name": "Thủ tục liên quan phương tiện giao thông",
+    "short": "Phương tiện giao thông",
+    "field": "Giao thông",
+    "category": "giao_thong",
+    "keywords": [
+      "xe",
+      "phương tiện",
+      "đăng ký xe",
+      "giao thông"
+    ],
+    "description": "Nhóm liên kết để người dân tra cứu thủ tục giao thông phù hợp.",
+    "documents": [
+      "Theo thủ tục cụ thể"
+    ],
+    "time": "Theo quy định",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "cc01",
+    "name": "Chứng thực bản sao từ bản chính",
+    "short": "Sao, chứng thực",
+    "field": "Chứng thực",
+    "category": "chung_thuc",
+    "keywords": [
+      "sao y",
+      "chứng thực",
+      "photo công chứng",
+      "bản sao"
+    ],
+    "description": "Tra cứu thủ tục chứng thực bản sao từ bản chính.",
+    "documents": [
+      "Bản chính giấy tờ cần chứng thực",
+      "Bản sao nếu có"
+    ],
+    "time": "Theo quy định",
+    "url": "https://dichvucong.gov.vn/"
+  },
+  {
+    "id": "xd01",
+    "name": "Cấp phép xây dựng",
+    "short": "Thủ tục xây dựng",
+    "field": "Xây dựng",
+    "category": "xay_dung",
+    "keywords": [
+      "xây dựng",
+      "giấy phép xây dựng",
+      "xin phép xây nhà"
+    ],
+    "description": "Tra cứu thủ tục và điều kiện liên quan đến cấp phép xây dựng.",
+    "documents": [
+      "Hồ sơ theo loại công trình và trường hợp"
+    ],
+    "time": "Theo quy định",
+    "url": "https://dichvucong.gov.vn/"
+  }
+];
+let DATA=[];
+
+async function loadData(){
+  DATA=PROCEDURES;
+  renderSuggestions();
+  renderQuick();
+  renderProcedures(DATA.slice(0,6));
+  renderCategories();
+}
+const icons={ho_tich:'👶',cu_tru:'🏠',dat_dai:'🌱',kinh_doanh:'🏪',lao_dong:'👥',giao_thong:'🚗',chung_thuc:'📄',xay_dung:'🏢',khac:'▦'};
+function renderSuggestions(){
+  const keys=['khai sinh','kết hôn','đất đai','cư trú','hộ kinh doanh','trợ cấp','chứng thực'];
+  document.querySelector('#suggestions').innerHTML=keys.map(x=>`<button onclick="quickSearch('${x}')">${x}</button>`).join('');
+}
+function renderQuick(){
+  const qs=DATA.filter(x=>x.quick);
+  document.querySelector('#quickGrid').innerHTML=qs.map(x=>`
+    <div class="quick-card" onclick="openProcedure('${x.id}')">
+      <div class="ico">${icons[x.category]||'📌'}</div><b>${x.short||x.name}</b>
+    </div>`).join('');
+}
+function renderProcedures(list){
+  document.querySelector('#procedureGrid').innerHTML=list.length?list.map(x=>`
+    <article class="procedure-card" onclick="openProcedure('${x.id}')">
+      <span class="arrow">→</span>
+      <div class="top"><div class="ico">${icons[x.category]||'📌'}</div><div>
+        <h3>${x.name}</h3><p>${x.field}</p>
+      </div></div>
+    </article>`).join(''):`<div class="panel" style="padding:25px;grid-column:1/-1">Không tìm thấy thủ tục phù hợp.</div>`;
+}
+function renderCategories(){
+  const cats=[...new Map(DATA.map(x=>[x.category,x.field])).entries()];
+  document.querySelector('#categoryGrid').innerHTML=cats.map(([c,f])=>`
+    <div class="category" onclick="filterCategory('${c}')"><div class="ico">${icons[c]||'▦'}</div><b>${f}</b></div>`).join('');
+}
+function search(){
+  const q=document.querySelector('#searchInput').value.trim().toLowerCase();
+  if(!q){renderProcedures(DATA.slice(0,6));return}
+  const terms=q.split(/\s+/);
+  const result=DATA.map(x=>{
+    const hay=[x.name,x.field,x.description,...(x.keywords||[])].join(' ').toLowerCase();
+    let score=0;
+    terms.forEach(t=>{if(hay.includes(t))score+=hay.startsWith(t)?3:1});
+    return {...x,score};
+  }).filter(x=>x.score>0).sort((a,b)=>b.score-a.score);
+  document.querySelector('#procedures').scrollIntoView({behavior:'smooth'});
+  renderProcedures(result);
+}
+function quickSearch(q){document.querySelector('#searchInput').value=q;search()}
+function filterCategory(c){document.querySelector('#procedures').scrollIntoView({behavior:'smooth'});renderProcedures(DATA.filter(x=>x.category===c))}
+function openProcedure(id){
+  const x=DATA.find(p=>p.id===id); if(!x)return;
+  document.querySelector('#modalContent').innerHTML=`
+    <h2>${x.name}</h2>
+    <div class="meta"><b>Lĩnh vực:</b> ${x.field}<br><b>Cơ quan thực hiện:</b> ${x.agency}<br><b>Thời gian:</b> ${x.time}</div>
+    <p>${x.description}</p>
+    <h3>Hồ sơ cần chuẩn bị</h3>
+    <ul>${x.documents.map(d=>`<li>${d}</li>`).join('')}</ul>
+    <p><b>Lưu ý:</b> ${x.note||'Thành phần hồ sơ và quy trình có thể được cập nhật theo hệ thống chính thức.'}</p>
+    <a class="primary" href="${x.url}" target="_blank" rel="noopener">THỰC HIỆN NGAY ↗</a>`;
+  document.querySelector('#modal').classList.add('show');
+}
+function closeModal(){document.querySelector('#modal').classList.remove('show')}
+function showGuide(){
+  document.querySelector('#modalContent').innerHTML=`<h2>Hướng dẫn sử dụng Phú Hồ Số</h2>
+  <p><b>Bước 1:</b> Nhập nhu cầu theo cách nói thông thường, ví dụ “làm giấy khai sinh”.</p>
+  <p><b>Bước 2:</b> Chọn thủ tục phù hợp và xem thông tin hồ sơ.</p>
+  <p><b>Bước 3:</b> Nhấn “Thực hiện ngay” để chuyển đến hệ thống chính thức.</p>
+  <p>Phú Hồ Số là lớp điều phối thông tin, không thay thế hệ thống tiếp nhận và xử lý hồ sơ chính thức.</p>`;
+  document.querySelector('#modal').classList.add('show');
+}
+document.querySelector('#searchBtn').addEventListener('click',search);
+document.querySelector('#searchInput').addEventListener('keydown',e=>{if(e.key==='Enter')search()});
+document.querySelector('#modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
+loadData();
+</script>
+</body>
+</html>
